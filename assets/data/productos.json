@@ -1,0 +1,22 @@
+[
+  { "id": "1", "name": "Laptop Pro", "price": 1299.99, "description": "Una laptop potente para profesionales y creativos, con procesador de última generación y pantalla retina.", "image": "https://picsum.photos/seed/laptop1/400/300", "category": "Electrónica" },
+  { "id": "2", "name": "Smartphone X", "price": 899.99, "description": "El último smartphone con la mejor cámara del mercado y una batería que dura todo el día.", "image": "https://picsum.photos/seed/phone2/400/300", "category": "Electrónica" },
+  { "id": "3", "name": "Auriculares Inalámbricos", "price": 199.99, "description": "Sonido de alta fidelidad con cancelación de ruido activa para una inmersión total.", "image": "https://picsum.photos/seed/headphones3/400/300", "category": "Accesorios" },
+  { "id": "4", "name": "Smartwatch 2", "price": 249.99, "description": "Monitorea tu salud y mantente conectado sin sacar tu teléfono.", "image": "https://picsum.photos/seed/watch4/400/300", "category": "Electrónica" },
+  { "id": "5", "name": "Mochila Urbana", "price": 79.99, "description": "Diseño moderno y minimalista, con compartimentos para todos tus dispositivos.", "image": "https://picsum.photos/seed/backpack5/400/300", "category": "Moda" },
+  { "id": "6", "name": "Cafetera Automática", "price": 149.99, "description": "Prepara el café perfecto cada mañana con solo presionar un botón.", "image": "https://picsum.photos/seed/coffee6/400/300", "category": "Hogar" },
+  { "id": "7", "name": "Zapatillas Runner", "price": 120.00, "description": "Comodidad y rendimiento para tus carreras diarias.", "image": "https://picsum.photos/seed/shoes7/400/300", "category": "Deportes" },
+  { "id": "8", "name": "Teclado Mecánico RGB", "price": 160.50, "description": "La mejor experiencia de escritura y gaming con luces personalizables.", "image": "https://picsum.photos/seed/keyboard8/400/300", "category": "Accesorios" },
+  { "id": "9", "name": "Libro de Ciencia Ficción", "price": 25.99, "description": "Un bestseller que te transportará a otro universo.", "image": "https://picsum.photos/seed/book9/400/300", "category": "Libros" },
+  { "id": "10", "name": "Cámara DSLR", "price": 750.00, "description": "Captura momentos inolvidables con calidad profesional.", "image": "https://picsum.photos/seed/camera10/400/300", "category": "Electrónica" },
+  { "id": "11", "name": "Botella de Agua Inteligente", "price": 45.00, "description": "Te recuerda cuándo hidratarte y mantiene la temperatura.", "image": "https://picsum.photos/seed/bottle11/400/300", "category": "Hogar" },
+  { "id": "12", "name": "Lámpara de Escritorio LED", "price": 55.00, "description": "Iluminación ajustable para tu espacio de trabajo.", "image": "https://picsum.photos/seed/lamp12/400/300", "category": "Hogar" },
+  { "id": "13", "name": "Mouse Ergonómico", "price": 65.00, "description": "Diseñado para la comodidad durante largas horas de uso.", "image": "https://picsum.photos/seed/mouse13/400/300", "category": "Accesorios" },
+  { "id": "14", "name": "Planta Decorativa", "price": 30.00, "description": "Añade un toque de naturaleza a tu hogar u oficina.", "image": "https://picsum.photos/seed/plant14/400/300", "category": "Hogar" },
+  { "id": "15", "name": "Gafas de Sol Polarizadas", "price": 95.00, "description": "Protección UV y estilo para cualquier ocasión.", "image": "https://picsum.photos/seed/glasses15/400/300", "category": "Moda" },
+  { "id": "16", "name": "Tablet 10\"", "price": 450.00, "description": "Perfecta para el entretenimiento y la productividad en movimiento.", "image": "https://picsum.photos/seed/tablet16/400/300", "category": "Electrónica" },
+  { "id": "17", "name": "Balón de Fútbol Profesional", "price": 35.00, "description": "Balón oficial aprobado por las ligas más importantes.", "image": "https://picsum.photos/seed/ball17/400/300", "category": "Deportes" },
+  { "id": "18", "name": "Silla de Oficina Ergonómica", "price": 220.00, "description": "Máximo confort y soporte para tu espalda durante la jornada laboral.", "image": "https://picsum.photos/seed/chair18/400/300", "category": "Hogar" },
+  { "id": "19", "name": "Monitor Ultrawide 34\"", "price": 550.00, "description": "Expande tu visión y mejora tu productividad con este monitor curvo.", "image": "https://picsum.photos/seed/monitor19/400/300", "category": "Electrónica" },
+  { "id": "20", "name": "Juego de Mancuernas", "price": 85.00, "description": "Set ajustable para entrenar desde la comodidad de tu casa.", "image": "https://picsum.photos/seed/weights20/400/300", "category": "Deportes" }
+]
