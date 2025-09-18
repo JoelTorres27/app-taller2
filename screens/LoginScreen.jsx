@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, Alert, StyleSheet, Text } from 'react-native';
+import { View, TextInput, Button, Alert, StyleSheet, Text, ImageBackground, Image, TouchableOpacity } from 'react-native';
 
 const LoginScreen = ({ navigation }) => {
   // Estados para almacenar lo que el usuario escribe
@@ -22,24 +22,41 @@ const LoginScreen = ({ navigation }) => {
   };
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Iniciar Sesión</Text>
+    <ImageBackground
+    style = {styles.container}
+    source = {require('../assets/images/slogin.png')}>
+    <View
+    style={styles.container}>
+      <Image 
+      style = {styles.image}
+      source ={require('../assets/images/login.png')}></Image>
+      <Text style={styles.titulo}>Iniciar Sesión</Text>
+      <Text style ={styles.label}>Usuario:</Text>
       <TextInput
         style={styles.input}
-        placeholder="Usuario"
         value={username}
         onChangeText={setUsername}
         autoCapitalize="none"
       />
+      <Text style= {styles.label}>Contraseña:</Text>
       <TextInput
         style={styles.input}
-        placeholder="Contraseña"
+
         value={password}
         onChangeText={setPassword}
         secureTextEntry
       />
-      <Button title="Acceder" onPress={handleLogin} />
+       <TouchableOpacity
+            style={styles.btn}
+            onPress={handleLogin}>
+            <Image
+            style= {styles.image2}
+            source = {require('../assets/images/entrar.png')}></Image>
+            <Text
+            style={styles.texto}>Ingresar</Text>
+            </TouchableOpacity>
     </View>
+    </ImageBackground>
   );
 };
 
@@ -48,21 +65,42 @@ const styles = StyleSheet.create({
     flex: 1, 
     justifyContent: 'center', 
     padding: 20,
-    backgroundColor: '#fff',
+    gap: 10,
+    alignItems: 'center'
   },
-  title: { 
-    fontSize: 28, 
+  label:{
+    color: 'white',
+    fontSize: 25,
+  },
+  image:{
+    height:200,
+    width: 200,
+    marginHorizontal: 'auto',
+  },
+  image2:{
+    height: 50,
+    width: 50
+    },
+  titulo: { 
+    fontSize: 50, 
+    color: 'white',
     fontWeight: 'bold', 
     textAlign: 'center', 
     marginBottom: 24 
   },
   input: {
+    fontSize: 20,
+    color: 'white',
     height: 45,
-    borderColor: 'gray',
+    width: 200,
+    textAlign: 'center',
+    borderColor: 'white',
     borderWidth: 1,
-    marginBottom: 15,
-    paddingHorizontal: 10,
     borderRadius: 5,
+  },
+   btn: { backgroundColor: '#2a934fff', borderRadius: 10, flexDirection: 'row',
+  height: 75, width: 240, flexDirection:'row', marginBottom: 10, padding: 13},
+  texto : {color: 'white',fontSize: 30, fontWeight: 'bold',textAlign:'center', alignContent:'center', flexDirection: 'row',marginHorizontal: 20,
   },
 });
 
