@@ -8,6 +8,7 @@ import WelcomeScreen from '../screens/WelcomeScreen';
 import LoginScreen from '../screens/LoginScreen';
 import MenuScreen from '../screens/MenuScreen';
 import CarritoScreen from '../screens/CarritoScreen';
+import MapaScreen from '../screens/MapaScreen';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -18,6 +19,7 @@ function MyDrawer() {
     <Drawer.Navigator initialRouteName="Menú">
       <Drawer.Screen name="Menú" component={MenuScreen} />
       <Drawer.Screen name="Carrito" component={CarritoScreen} />
+      <Drawer.Screen name="Mapa" component={MapaScreen} />
     </Drawer.Navigator>
   );
 }
