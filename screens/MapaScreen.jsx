@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function MapaScreen() {
   return (
-    <MapView style={style.map}
+    <MapView style={styles.map}
         initialRegion={{
             latitude: -0.264983,
             longitude: -78.550295,
