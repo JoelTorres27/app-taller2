@@ -35,8 +35,8 @@ const styles = StyleSheet.create({
   texto : {color: 'white',fontSize: 30, fontWeight: 'bold',textAlign:'center', alignContent:'center',
   },
   btn: { backgroundColor: '#2a934fff', borderRadius: 10,
-  height: 75, width: 240, flexDirection:'row', marginBottom: 20, padding: 13},
-  login: {height: 55, width: 55, color:'white',marginRight: 10, alignContent: 'center', alignSelf: 'center',},
+  height: 68, width: 210, flexDirection:'row', marginBottom: 20, padding: 13, justifyContent: 'center'},
+  login: {height: 45, width: 45, color:'white',marginRight: 10, alignContent: 'center', alignSelf: 'center',},
 });
 
 export default WelcomeScreen;
