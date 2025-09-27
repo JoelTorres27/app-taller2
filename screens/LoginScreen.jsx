@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
    btn: { backgroundColor: '#2a934fff', borderRadius: 10, flexDirection: 'row',
-  height: 75, width: 240, flexDirection:'row', marginBottom: 10, padding: 13},
+  height: 70, width: 200, flexDirection:'row', marginBottom: 10, padding: 10, alignItems: 'center'},
   texto : {color: 'white',fontSize: 30, fontWeight: 'bold',textAlign:'center', alignContent:'center', flexDirection: 'row',marginHorizontal: 20,
   },
 });
