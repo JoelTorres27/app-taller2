@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity, ScrollView,
 import React, { useState, useEffect } from 'react';
 
 const initialProducts = [
-  { id: "1", name: "Laptop Pro", price: 1299.99, description: "Una laptop potente para profesionales y creativos.", image: "https://picsum.photos/seed/laptop1/400/300", category: "Electrónica", quantity: 1 },
+  { id: "1", name: "Laptop Dell pro", price: 1299.99, description: "Una laptop potente para profesionales y creativos.", image: "https://picsum.photos/seed/laptop1/400/300", category: "Electrónica", quantity: 1 },
   { id: "2", name: "Smartphone X", price: 899.99, description: "El último smartphone con la mejor cámara del mercado.", image: "https://picsum.photos/seed/phone2/400/300", category: "Electrónica", quantity: 2 }
 ];
 
